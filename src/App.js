@@ -33,8 +33,8 @@ class App extends React.Component {
               ...snapShot.data(),
             },
           });
-          //here we see if a user is registered from  console.log(this.state);
-          console.log(this.state);
+          //here we see if a user is registered from console.log(this.state);
+          // console.log(this.state);
         });
       } else {
         this.setState({ currentUser: userAuth });
